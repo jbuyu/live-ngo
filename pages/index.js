@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Footer from "../src/components/Footer";
 import Navbar from "../src/components/Navbar";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
       </Head>
       <Navbar />
 
-      <div className={styles.container}>
+      <div>
         <div>Main Ngo section</div>
       </div>
       <Footer />

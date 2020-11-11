@@ -11,6 +11,12 @@
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-icons": "^3.11.0"
+    "react-icons": "^3.11.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.11.1",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.9.6"
   }
 }
