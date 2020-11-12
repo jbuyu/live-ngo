@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Header() {
   return (
-    <div className="header">
+    <header>
       <div className="container-fluid">
         <div className="row">
           <div className="header-inner">
@@ -32,6 +32,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
