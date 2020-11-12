@@ -1,20 +1,20 @@
 import Head from "next/head";
 import Footer from "../src/components/Footer";
-import Navbar from "../src/components/Navbar";
+import Hero from "../src/components/Hero";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Ngo reel</title>
+        <title>Udah</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
+      <div className="antialiased text-gray-800">
+        <Hero />
 
-      <div>
-        <div>Main Ngo section</div>
+        <div></div>
+        {/* <Footer /> */}
       </div>
-      <Footer />
     </>
   );
 }
