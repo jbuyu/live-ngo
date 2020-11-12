@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Footer from "../src/components/Footer";
-import Hero from "../src/components/Hero";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
@@ -9,10 +9,10 @@ export default function Home() {
         <title>Udah</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="antialiased text-gray-800">
+      <div className="example">
         <Hero />
 
-        <div></div>
+        <div>miami</div>
         {/* <Footer /> */}
       </div>
     </>
