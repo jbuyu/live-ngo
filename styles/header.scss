@@ -56,14 +56,24 @@ header {
         align-items: center;
         .donate {
           a {
-            font-size: 0.875rem;
-            padding: 8px 0;
+            font-size: 1rem;
+            height: 52px;
+            padding: 4px 24px;
             text-decoration: none;
             font-weight: 600;
             color: $blue;
             margin-right: 48px;
+            border: 2px solid $blue;
+            border-radius: 100px;
+            transition: 0.2s ease-in-out;
+            &:hover {
+              background: $blue;
+              color: $white;
+            }
+            //   }
             @media (max-width: $widescreen) {
               margin-right: 24px;
+              padding: 0 24px;
             }
           }
         }

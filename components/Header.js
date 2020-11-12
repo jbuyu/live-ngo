@@ -10,16 +10,16 @@ export default function Header() {
               <nav>
                 <ul>
                   <li>
-                    <Link href="#"> Next</Link>
+                    <Link href="#"> About</Link>
                   </li>
                   <li>
-                    <Link href="#"> Next</Link>
+                    <Link href="#"> Impact</Link>
                   </li>
                   <li>
-                    <Link href="#"> Next</Link>
+                    <Link href="#"> Insights</Link>
                   </li>
                   <li>
-                    <Link href="#"> Next</Link>
+                    <Link href="#"> Help Out</Link>
                   </li>
                 </ul>
               </nav>

@@ -12,7 +12,6 @@ export default function Home() {
       <div className="example">
         <Header />
 
-        <div>miami</div>
         {/* <Footer /> */}
       </div>
     </>
