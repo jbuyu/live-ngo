@@ -5,7 +5,7 @@ export default function Header() {
       <div className="container-fluid">
         <div className="row">
           <div className="header-inner">
-            <div className="logo">J</div>
+            <div className="logo">Bold-step</div>
             <div className="navigation">
               <nav>
                 <ul>
