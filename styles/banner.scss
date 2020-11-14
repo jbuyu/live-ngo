@@ -89,6 +89,7 @@
           left: 0;
           border-radius: 4px 4px 0 0;
           overflow: hidden;
+          cursor: pointer;
           .cover {
             padding: 0;
             background: $lPink;
@@ -98,7 +99,7 @@
             opacity: 0;
           }
           span {
-            opacity: 0;
+            opacity: 1;
             display: flex;
             align-items: center;
             height: 64px;

@@ -1,5 +1,7 @@
 // import Image from "next/image";
+import Link from "next/link";
 import Africa from "../public/africa.svg";
+import Play from "../public/play.svg";
 
 export default function Banner() {
   return (
@@ -27,13 +29,15 @@ export default function Banner() {
                 <div className="btn-row">
                   <a href="/">Contact us today</a>
                 </div>
-                <div className="play-video">
+                {/* <div className="play-video">
                   <div className="play-video cover"></div>
                   <span>
-                    <img src="./images/play.svg" alt="play icon" />
-                    Watch Video
+                    <a target="_blank" href="www.google.com">
+                      <img src={Play} alt="play icon" />
+                      Watch Video
+                    </a>
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="image">
