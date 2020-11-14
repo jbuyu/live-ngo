@@ -1,10 +1,10 @@
 export default function Features() {
   return (
-    <section id="features" class="features">
-      <div class="container">
-        <div class="row">
-          <div class="features-inner">
-            <div class="features-content">
+    <section id="features" className="features">
+      <div className="container">
+        <div className="row">
+          <div className="features-inner">
+            <div className="features-content">
               <h3>We are here to provide you with the best services.</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -12,14 +12,14 @@ export default function Features() {
                 quod aut autem fuga ex, neque error unde possimus odit eaque
                 voluptatibus sapiente qui.
               </p>
-              <div class="btn-row">
+              <div className="btn-row">
                 <a href="/">
                   View All Services
                   <img src="./images/arrow-right.svg" alt="arrow right" />
                 </a>
               </div>
             </div>
-            <div class="features-list">
+            <div className="features-list">
               <ul>
                 <li>
                   <img src="./images/fast-delivery.svg" alt="fast delivery" />
