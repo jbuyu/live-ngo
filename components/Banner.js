@@ -13,16 +13,16 @@ export default function Banner() {
               <div className="content-inner">
                 <h1>
                   <div className="line">
-                    <span>Youthful Transformation</span>
+                    <span>Trasformative Change</span>
                   </div>
                   <div className="line">
-                    <span>in Africa</span>
+                    <span>In African </span>
                   </div>
                 </h1>
                 <p>
-                  Trasforming communities by fostering connections and providing
-                  access to resources through the creation of intentional, safe
-                  and dynamic spaces.
+                  Transforming communities by fostering connections and
+                  providing access to resources through the creation of
+                  intentional, safe and dynamic spaces.
                 </p>
                 <div className="btn-row">
                   <a href="/">Contact us today</a>
@@ -38,9 +38,7 @@ export default function Banner() {
             </div>
             <div className="image">
               <div className="image-inner">
-                {/* <img src="./africa.svg" alt="Hand" /> */}
-
-                <img src={Africa} alt="africa" width={500} height={400} />
+                <img src={Africa} alt="africa" />
                 <div className="feature-banner" id="featureBanner">
                   Youth guides
                 </div>
