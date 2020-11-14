@@ -136,7 +136,7 @@
         .feature-banner {
           position: absolute;
           bottom: 286px;
-          left: -100px;
+          left: -104px;
           background: $lBlue;
           color: $white;
           height: 52px;
@@ -147,7 +147,7 @@
           font-weight: 600;
           &.green {
             background: $green;
-            right: 56px;
+            right: 4px;
             left: auto;
             bottom: 116px;
             @media (max-width: $widescreen) {

@@ -1,11 +1,20 @@
 import Link from "next/link";
+import Bold from "../public/bold.svg";
 export default function Header() {
   return (
     <header>
       <div className="container-fluid">
         <div className="row">
           <div className="header-inner">
-            <div className="logo">Bold-step</div>
+            <div className="logo">
+              <img
+                src="/bold.png"
+                alt="bold logo"
+                srcset="bold logo"
+                width={120}
+                height={120}
+              />
+            </div>
             <div className="navigation">
               <nav>
                 <ul>
