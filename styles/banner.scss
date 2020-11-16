@@ -123,7 +123,8 @@
       align-items: flex-end;
       .image-inner {
         img {
-          width: 450px;
+          width: 550px;
+          // height: 500px;
           position: absolute;
           bottom: 0;
           left: 0;
@@ -135,8 +136,8 @@
         }
         .feature-banner {
           position: absolute;
-          bottom: 286px;
-          left: -104px;
+          bottom: 288px;
+          left: -120px;
           background: $lBlue;
           color: $white;
           height: 52px;
@@ -149,7 +150,7 @@
             background: $green;
             right: 4px;
             left: auto;
-            bottom: 116px;
+            bottom: 106px;
             @media (max-width: $widescreen) {
               right: -24px;
             }

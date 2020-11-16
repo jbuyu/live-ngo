@@ -44,10 +44,10 @@ export default function Banner() {
               <div className="image-inner">
                 <img src={Africa} alt="africa" />
                 <div className="feature-banner" id="featureBanner">
-                  Youth guides
+                  Youth Venture
                 </div>
                 <div className="feature-banner green" id="featureBannerGreen">
-                  No child left behind
+                  Growth
                 </div>
               </div>
             </div>
