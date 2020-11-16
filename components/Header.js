@@ -7,13 +7,7 @@ export default function Header() {
         <div className="row">
           <div className="header-inner">
             <div className="logo">
-              <img
-                src="/bold.png"
-                alt="bold logo"
-                srcset="bold logo"
-                width={120}
-                height={120}
-              />
+              <img src="/bold.png" alt="bold logo" width={120} height={120} />
             </div>
             <div className="navigation">
               <nav>

@@ -1,3 +1,5 @@
+import Fast from "../public/fast-delivery.svg";
+
 export default function Features() {
   return (
     <section id="features" className="features">
@@ -5,12 +7,15 @@ export default function Features() {
         <div className="row">
           <div className="features-inner">
             <div className="features-content">
-              <h3>We are here to provide you with the best services.</h3>
+              <h3>
+                We are here to mould the next generation of African youths.
+              </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus cupiditate magni vitae aliquam dolorem nobis facere
-                quod aut autem fuga ex, neque error unde possimus odit eaque
-                voluptatibus sapiente qui.
+                BoldStep Initiative aims to transform young people’s lives
+                through education, mentorship, awareness creation and
+                empowerment programs by creating a platform and safe space for
+                communities to discover, develop and impact the society
+                positively.
               </p>
               <div className="btn-row">
                 <a href="/">
@@ -22,7 +27,7 @@ export default function Features() {
             <div className="features-list">
               <ul>
                 <li>
-                  <img src="./images/fast-delivery.svg" alt="fast delivery" />
+                  <img src={Fast} alt="fast delivery" />
                   <h5>Fast Delivery</h5>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -31,7 +36,7 @@ export default function Features() {
                 </li>
                 <li>
                   <img src="./images/0-fees.svg" alt="fast delivery" />
-                  <h5>$0 Fee's</h5>
+                  <h5>Transformative Change</h5>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Qui dolorum rerum vero.
@@ -46,11 +51,11 @@ export default function Features() {
                   </p>
                 </li>
                 <li>
-                  <img src="./images/no-credit-check.svg" alt="fast delivery" />
-                  <h5>No Credit Checks</h5>
+                  <img src="./region.png" alt="region" />
+                  <h5>Regions </h5>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Qui dolorum rerum vero.
+                    At the moment, we are centerd in the Kenyan Capital and it's
+                    Environs, piloting comunity outreach programs
                   </p>
                 </li>
                 <li>
