@@ -1,4 +1,4 @@
-import Fast from "../public/fast-delivery.svg";
+import Goal from "../public/goal.svg";
 
 export default function Features() {
   return (
@@ -27,27 +27,28 @@ export default function Features() {
             <div className="features-list">
               <ul>
                 <li>
-                  <img src={Fast} alt="fast delivery" />
-                  <h5>Fast Delivery</h5>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Qui dolorum rerum vero.
-                  </p>
-                </li>
-                <li>
-                  <img src="./images/0-fees.svg" alt="fast delivery" />
+                  <img src="/transform.png" alt="fast delivery" />
                   <h5>Transformative Change</h5>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Qui dolorum rerum vero.
+                    We believe that a gradual change of the youths will
+                    spearhead growth into the next decade
                   </p>
                 </li>
                 <li>
-                  <img src="./images/0-interest.svg" alt="fast delivery" />
-                  <h5>0% Interest</h5>
+                  <img src="/mission.png" alt="fast delivery" />
+                  <h5>Mission</h5>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Qui dolorum rerum vero.
+                    To transform communities by fostering connections and
+                    providing access to resources through the creation of
+                    intentional, safe and dynamic spaces.
+                  </p>
+                </li>
+                <li>
+                  <img src={Goal} width={75} alt="fast delivery" />
+                  <h5>Employment &amp; Opportunities</h5>
+                  <p>
+                    To increase employment and earning opportunities for
+                    improved livelihoods among communities in Kenya.
                   </p>
                 </li>
                 <li>
@@ -59,11 +60,13 @@ export default function Features() {
                   </p>
                 </li>
                 <li>
-                  <img src="./images/chat-support.svg" alt="fast delivery" />
-                  <h5>Chat Support</h5>
+                  <img src="/vision.svg" width={75} alt="fast delivery" />
+                  <h5>Vision</h5>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Qui dolorum rerum vero.
+                    We believe that sustainable change stems from building
+                    collective power at the community level. We envision a
+                    future where all people have spaces to connect meaningfully
+                    and access the resources they need to thrive.
                   </p>
                 </li>
                 <li>

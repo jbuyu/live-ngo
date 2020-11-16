@@ -18,7 +18,7 @@ export default function Banner() {
                     <span>Trasformative Change</span>
                   </div>
                   <div className="line">
-                    <span>In African </span>
+                    <span>In Africa </span>
                   </div>
                 </h1>
                 <p>
