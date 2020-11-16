@@ -1,4 +1,6 @@
 import Goal from "../public/goal.svg";
+import Sustain from "../public/sustain.svg";
+import Vision from "../public/vision.svg";
 
 export default function Features() {
   return (
@@ -60,7 +62,7 @@ export default function Features() {
                   </p>
                 </li>
                 <li>
-                  <img src="/vision.svg" width={75} alt="fast delivery" />
+                  <img src={Vision} width={75} alt="fast delivery" />
                   <h5>Vision</h5>
                   <p>
                     We believe that sustainable change stems from building
@@ -70,14 +72,11 @@ export default function Features() {
                   </p>
                 </li>
                 <li>
-                  <img
-                    src="./images/fixed-payment-option.svg"
-                    alt="fast delivery"
-                  />
-                  <h5>Fixed Payment Option</h5>
+                  <img src={Sustain} width={75} alt="sustainability" />
+                  <h5>Sustainability</h5>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Qui dolorum rerum vero.
+                    We join hands together working on sustaible youth projects
+                    for the environment and greater good
                   </p>
                 </li>
               </ul>
