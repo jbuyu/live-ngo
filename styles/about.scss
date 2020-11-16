@@ -1,0 +1,7 @@
+.about {
+  height: 80vh;
+  position: relative;
+  @media (max-width: $widescreen) {
+    height: 90vh;
+  }
+}

@@ -13,7 +13,7 @@ export default function Header() {
               <nav>
                 <ul>
                   <li>
-                    <Link href="#"> About</Link>
+                    <Link href="/about"> About</Link>
                   </li>
                   <li>
                     <Link href="#"> Impact</Link>
