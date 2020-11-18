@@ -32,33 +32,9 @@ export default function Features() {
                   <img src="/transform.png" alt="fast delivery" />
                   <h5>Transformative Change</h5>
                   <p>
-                    We believe that a gradual change of the youths will
-                    spearhead growth into the next decade
-                  </p>
-                </li>
-                <li>
-                  <img src="/mission.png" alt="fast delivery" />
-                  <h5>Mission</h5>
-                  <p>
-                    To transform communities by fostering connections and
-                    providing access to resources through the creation of
-                    intentional, safe and dynamic spaces.
-                  </p>
-                </li>
-                <li>
-                  <img src={Goal} width={75} alt="fast delivery" />
-                  <h5>Employment &amp; Opportunities</h5>
-                  <p>
-                    To increase employment and earning opportunities for
-                    improved livelihoods among communities in Kenya.
-                  </p>
-                </li>
-                <li>
-                  <img src="./region.png" alt="region" />
-                  <h5>Regions </h5>
-                  <p>
-                    At the moment, we are centerd in the Kenyan Capital and it's
-                    Environs, piloting comunity outreach programs
+                    We believe that equiping youths with adaptible skills
+                    required in their domains of expertise will spearhead
+                    growth.
                   </p>
                 </li>
                 <li>
@@ -72,11 +48,40 @@ export default function Features() {
                   </p>
                 </li>
                 <li>
+                  <img src="/mission.png" alt="fast delivery" />
+                  <h5>Mission</h5>
+                  <p>
+                    To transform communities through support networks and
+                    provide access to resources through creation of intentional,
+                    safe and dynamic spaces.
+                  </p>
+                </li>
+                <li>
+                  <img src={Goal} width={75} alt="fast delivery" />
+                  <h5>Employment &amp; Opportunities</h5>
+                  <p>
+                    To increase employment and earning opportunities that
+                    improve livelihood within kenyan communities, especially
+                    marginalised communities.
+                  </p>
+                </li>
+                <li>
+                  <img src="./region.png" alt="region" />
+                  <h5>Coverage </h5>
+                  <p>
+                    At the moment, we are centered in Nairobi and its Environs,
+                    piloting community outreach programs and scaling
+                    incrementally.
+                  </p>
+                </li>
+
+                <li>
                   <img src={Sustain} width={75} alt="sustainability" />
                   <h5>Sustainability</h5>
                   <p>
-                    We join hands together working on sustaible youth projects
-                    for the environment and greater good
+                    We've joined hands at the grassroot level working on
+                    sustaible youth projects that incorporate sustainability of
+                    the planet.
                   </p>
                 </li>
               </ul>
