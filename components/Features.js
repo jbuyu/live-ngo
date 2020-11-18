@@ -23,7 +23,7 @@ export default function Features() {
               <div className="btn-row">
                 <a href="/">
                   Meet The Team
-                  <img src={Right} alt="arrow right" />
+                  <img src={Right} alt="arrow right" width={25} height={25} />
                 </a>
               </div>
             </div>
