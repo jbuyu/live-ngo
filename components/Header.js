@@ -15,7 +15,7 @@ export default function Header() {
               <nav>
                 <ul>
                   <li>
-                    <Link href="/about"> Challenge</Link>
+                    <Link href="/challenge"> Challenge</Link>
                   </li>
                   <li>
                     <Link href="#"> Solution</Link>
