@@ -72,14 +72,14 @@ function Footer() {
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
-          <div className="footer-logo">
+          {/* <div className="footer-logo">
             <Link href="/" className="social-logo">
               <div className="nav-plane">
-                <MdFingerprint className="navbar-icon" />
+                <img src="/bold.png" alt="bold logo" width={50} height={50} />
                 Boldstep Initiative
               </div>
             </Link>
-          </div>
+          </div> */}
           <small className="website-rights">Boldstep Initiative © 2020</small>
           <div className="social-icons">
             <div className="div-link">
