@@ -1,6 +1,7 @@
 import Goal from "../public/goal.svg";
 import Sustain from "../public/sustain.svg";
 import Vision from "../public/vision.svg";
+import Right from "../public/right.svg";
 
 export default function Features() {
   return (
@@ -21,8 +22,8 @@ export default function Features() {
               </p>
               <div className="btn-row">
                 <a href="/">
-                  View All Services
-                  <img src="./images/arrow-right.svg" alt="arrow right" />
+                  Meet The Team
+                  <img src={Right} alt="arrow right" />
                 </a>
               </div>
             </div>
