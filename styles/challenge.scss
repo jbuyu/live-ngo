@@ -1,7 +1,8 @@
 .challenge {
-  height: auto;
+  height: 90vh;
   position: relative;
   // margin-top: 100px;
+  z-index: 10;
   @media (max-width: $widescreen) {
     height: 90vh;
   }
