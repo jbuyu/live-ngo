@@ -8,7 +8,7 @@ class Layout extends Component {
       <div className="layout">
         <Header />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

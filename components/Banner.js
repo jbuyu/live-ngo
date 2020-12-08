@@ -6,7 +6,6 @@ import Play from "../public/play.svg";
 export default function Banner() {
   return (
     <section className="banner" id="banner">
-      {/* <div id="bannerBgAddition" className="banner-addition-bg"></div> */}
       <div id="bannerBg" className="banner-bg"></div>
       <div className="container">
         <div className="row">
