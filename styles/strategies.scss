@@ -1,4 +1,11 @@
 .strategies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  // font-family: "lato", sans-serif;
   .timeline-item {
     .timeline-item-content {
       .tag {
@@ -20,7 +27,7 @@
   //   right: 0;
   //   top: 0;
   //   bottom: 0;
-  //   background-image: url("../public/back.svg");
+  //   background-image: url("/back.svg");
   //   height: 100%;
   //   background-size: cover;
   //   background-repeat: no-repeat;

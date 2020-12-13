@@ -21,10 +21,11 @@ export default function Solution() {
                     </p>
                     <br />
                     <p>
-                      We work with Kenyan youth aged 18-29 years old, who are
-                      recent college / university graduates, young professionals
-                      and entrepreneurs to lay the foundation for their
-                      posperity.
+                      We work with Kenyan youth aged <strong>18-29 </strong>{" "}
+                      years old, who are recent{" "}
+                      <strong>college / university</strong> graduates, young
+                      professionals and entrepreneurs to lay the foundation for
+                      their posperity.
                     </p>
                   </div>
                 </h1>

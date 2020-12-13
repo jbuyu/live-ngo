@@ -12,7 +12,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url("../public/back.svg");
+    background-image: url("/back.svg");
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,10 +41,9 @@
           position: relative;
 
           p {
-            color: #233567;
-            font-weight: 200;
-            font-family: "Playfair Display";
-            font-size: 1.2rem;
+            color: #172548;
+            font-weight: 300;
+            font-size: 1.3rem;
             margin: 0;
             line-height: 1.9rem;
           }
