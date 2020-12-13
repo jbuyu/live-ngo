@@ -30,6 +30,7 @@ function Footer() {
           </form>
         </div>
       </section> */}
+
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
@@ -46,38 +47,40 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Videos</h2>
-            <Link href="https://www.youtube.com/watch?v=SeWCX0GHm2s&ab_channel=BoldStepInitiative">
+
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.youtube.com/watch?v=SeWCX0GHm2s&ab_channel=BoldStepInitiative"
+            >
               Win Scholarship
-            </Link>
-            <Link href="https://www.youtube.com/watch?v=svDl0ub2eYQ&ab_channel=BoldStepInitiative">
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.youtube.com/watch?v=svDl0ub2eYQ&ab_channel=BoldStepInitiative"
+            >
               Resume
-            </Link>
-            <Link href="https://www.youtube.com/watch?v=OSz1TA-lkcI&ab_channel=BoldStepInitiative">
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.youtube.com/watch?v=OSz1TA-lkcI&ab_channel=BoldStepInitiative"
+            >
               Personal Finane
-            </Link>
-            <Link href="https://www.youtube.com/watch?v=IXIpZpEQoBQ&ab_channel=BoldStepInitiative">
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.youtube.com/watch?v=IXIpZpEQoBQ&ab_channel=BoldStepInitiative"
+            >
               Start-Up
-            </Link>
+            </a>
           </div>
-          {/* <div className="footer-link-items">
-            <h2>Social Media</h2>
-            <Link href="/">Instagram</Link>
-            <Link href="/">Facebook</Link>
-            <Link href="/">Youtube</Link>
-            <Link href="/">Twitter</Link>
-          </div> */}
         </div>
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
-          {/* <div className="footer-logo">
-            <Link href="/" className="social-logo">
-              <div className="nav-plane">
-                <img src="/bold.png" alt="bold logo" width={50} height={50} />
-                Boldstep Initiative
-              </div>
-            </Link>
-          </div> */}
           <small className="website-rights">Boldstep Initiative © 2020</small>
           <div className="social-icons">
             <div className="div-link">
