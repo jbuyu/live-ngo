@@ -1,6 +1,6 @@
 export default function Challenge() {
   return (
-    <section className="challenge" id="challenge">
+    <section className="challenge">
       <div className="challenge-bg"></div>
       <div className="container">
         <div className="row">

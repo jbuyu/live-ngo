@@ -1,6 +1,6 @@
 export default function Solution() {
   return (
-    <section className="solution" id="solution">
+    <section className="solution">
       <div className="solution-bg"></div>
       <div className="container">
         <div className="row">
