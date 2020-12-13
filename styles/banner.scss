@@ -115,6 +115,9 @@
       display: flex;
       justify-content: center;
       align-items: flex-end;
+      @media screen and (max-width: 820px) {
+        display: none;
+      }
       .image-inner {
         img {
           width: 550px;

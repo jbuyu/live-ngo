@@ -6,6 +6,9 @@ header {
   height: 100px;
   z-index: 10;
   background-color: #f7f7f7;
+  @media screen and (max-width: 820px) {
+    display: none;
+  }
   .container-fluid {
     .header-inner {
       position: relative;
