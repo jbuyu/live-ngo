@@ -5,77 +5,46 @@
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  // font-family: "lato", sans-serif;
-  .timeline-item {
-    .timeline-item-content {
-      .tag {
-        border-radius: 8px;
-        padding: 0px 4px;
+  background-color: #f6f5f7;
+  .timeline-container {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    position: relative;
+    .timeline-item {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 30px;
+      margin: 10px -10px;
+      width: 50%;
+      .timeline-item-content {
+        max-width: 70%;
+        .tag {
+          border-radius: 8px;
+          padding: 0px 4px;
+        }
+        .text {
+          color: #172548;
+          font-weight: 300;
+          font-size: 1.3rem;
+          margin: 0;
+          line-height: 1.9rem;
+        }
       }
     }
+    .timeline-item:nth-child(odd) {
+      align-self: flex-end;
+      justify-content: flex-start;
+      padding-right: 0px;
+      padding-left: 30px;
+    }
   }
-  // height: 80vh;
-  // position: relative;
-  // // margin-top: 100px;
-  // z-index: 10;
-  // @media (max-width: $widescreen) {
-  //   height: 90vh;
-  // }
-  // .strategies-bg {
-  //   position: absolute;
-  //   left: 0;
-  //   right: 0;
-  //   top: 0;
-  //   bottom: 0;
-  //   background-image: url("/back.svg");
-  //   height: 100%;
-  //   background-size: cover;
-  //   background-repeat: no-repeat;
-  // }
-  // .strategies-inner {
-  //   width: 100%;
-  //   height: 80vh;
-  //   display: flex;
-  //   position: relative;
-  //   @media (max-width: $widescreen) {
-  //     height: 90vh;
-  //   }
-  //   .content {
-  //     width: 50%;
-  //     height: 100%;
-  //     display: flex;
-  //     align-items: center;
-  //     .content-inner {
-  //       @media (max-width: $widescreen) {
-  //         font-size: 3.1rem;
-  //         line-height: 1rem;
-  //       }
-  //       .strategies {
-  //         overflow: hidden;
-  //         height: auto;
-  //         position: relative;
-
-  //         p {
-  //           color: #233567;
-  //           font-weight: 200;
-  //           font-family: "Playfair Display";
-  //           font-size: 1.2rem;
-  //           margin: 0;
-  //           line-height: 1.9rem;
-  //         }
-  //       }
-  //       // p {
-  //       //   font-size: 1rem;
-  //       //   line-height: 1.6rem;
-  //       //   font-weight: 300;
-  //       //   color: $blue;
-  //       //   width: 520px;
-  //       //   margin: 32px 0 80px;
-  //       //   @media (max-width: $widescreen) {
-  //       //     margin: 16px 0 60px;
-  //       //   }
-  //       // }
-  //     }
-  //   }
-  // }
+  .timeline-container::after {
+    background-color: #e17b77;
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    left: calc(50% - 2px);
+  }
 }
