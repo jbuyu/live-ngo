@@ -5,7 +5,7 @@ import Africa from "../public/africa.svg";
 export default function Banner() {
   return (
     <section className="banner" id="banner">
-      <div id="bannerBg" className="banner-bg"></div>
+      <div className="banner-bg"></div>
       <div className="container">
         <div className="row">
           <div className="banner-inner" id="bannerInner">

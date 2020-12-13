@@ -6,15 +6,7 @@
   @media (max-width: $widescreen) {
     height: 90vh;
   }
-  .banner-addition-bg {
-    background: $blue;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-  }
+
   .banner-bg {
     background: $lPink;
     position: absolute;
@@ -22,7 +14,10 @@
     right: 0;
     top: 0;
     bottom: 0;
+    background-image: url("../public/back.svg");
     height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .banner-inner {
     width: 100%;
