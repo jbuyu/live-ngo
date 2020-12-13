@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Bold from "../public/bold.svg";
+// import Bold from "../public/bold.svg";
 export default function Header() {
   return (
     <header>
@@ -18,10 +18,10 @@ export default function Header() {
                     <Link href="/challenge"> Challenge</Link>
                   </li>
                   <li>
-                    <Link href="#"> Solution</Link>
+                    <Link href="/solution"> Solution</Link>
                   </li>
                   <li>
-                    <Link href="#"> Strategies</Link>
+                    <Link href="/strategies"> Strategies</Link>
                   </li>
                   <li>
                     <Link href="#"> Patners</Link>
