@@ -19,6 +19,13 @@ export default function Solution() {
                       transferable skills in a competency based learning
                       approach.
                     </p>
+                    <br />
+                    <p>
+                      We work with Kenyan youth aged 18-29 years old, who are
+                      recent college / university graduates, young professionals
+                      and entrepreneurs to lay the foundation for their
+                      posperity.
+                    </p>
                   </div>
                 </h1>
               </div>
