@@ -7,13 +7,15 @@
     height: 90vh;
   }
   .challenge-bg {
-    background: $lPink;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
+    background-image: url("../public/back.svg");
     height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .challenge-inner {
     width: 100%;
@@ -24,34 +26,27 @@
       height: 90vh;
     }
     .content {
-      width: 60%;
+      width: 50%;
       height: 100%;
       display: flex;
       align-items: center;
       .content-inner {
-        h1 {
-          font-family: "Playfair Display";
-          color: $blue;
-          // font-size: 3.4rem;
-          // line-height: 1rem;
-          margin: 32px 0 0;
-          width: 620px;
-          @media (max-width: $widescreen) {
-            // font-size: 3.1rem;
-            line-height: 1rem;
-          }
-          .challenge {
-            overflow: hidden;
-            height: auto;
-            position: relative;
-            span {
-              position: absolute;
-            }
-            p {
-              font-size: 1.2rem;
-              line-height: 1.6rem;
-              font-weight: 300;
-            }
+        @media (max-width: $widescreen) {
+          font-size: 3.1rem;
+          line-height: 1rem;
+        }
+        .challenge {
+          overflow: hidden;
+          height: auto;
+          position: relative;
+
+          p {
+            color: #233567;
+            font-weight: 200;
+            font-family: "Playfair Display";
+            font-size: 1.2rem;
+            margin: 0;
+            line-height: 1.9rem;
           }
         }
         // p {

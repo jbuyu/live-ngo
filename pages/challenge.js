@@ -1,8 +1,7 @@
 export default function Challenge() {
   return (
     <section className="challenge" id="challenge">
-      {/* <div id="bannerBgAddition" className="banner-addition-bg"></div> */}
-      <div id="challengeBg" className="challenge-bg"></div>
+      <div className="challenge-bg"></div>
       <div className="container">
         <div className="row">
           <div className="challenge-inner" id="challengeInner">
@@ -11,16 +10,15 @@ export default function Challenge() {
                 <h1>
                   <div className="challenge">
                     <p>
-                      Today most young people, despite being educated, encounter
-                      difficulties in entering and remaining in the labor
-                      market. For some, the transition to work is problematic.
-                      Mismatches between skills and the labor market needs can
-                      lead to long periods of job seeking, intertwined with
-                      unemployment spells or periods of low skilled and
-                      precarious work. However, if equipped with the relevant
-                      skills needed in the labor market, there are possibilities
-                      that the youth can be engaged in many areas of our
-                      economy.
+                      Today although most young people are educated, they
+                      encounter difficulties in entering and remaining in the
+                      labor market. For some, the transition to finding jobs is
+                      problematic. Mismatches between skills and the labor
+                      market can lead to long periods of job seeking,
+                      intertwined with unemployment spells or periods of low
+                      skilled and precarious work. However, if equipped with the
+                      relevant skills there are numerous economical
+                      opportunities for the youths.
                     </p>
                   </div>
                 </h1>
