@@ -1,7 +1,6 @@
 // import Image from "next/image";
 import Link from "next/link";
 import Africa from "../public/africa.svg";
-import Play from "../public/play.svg";
 
 export default function Banner() {
   return (
