@@ -4,7 +4,7 @@ const timelineData = [
     text:
       "This addresses the skills mismatch of youth by engaging training providers and private sector employers in offering training and work experience to targeted youth. It responds to Kenyan employers who assert that youth who come out of schools and training centers frequently lack the relevant work experience and competencies needed for employment.",
     category: {
-      tag: "Employerbility",
+      tag: "Employability",
       color: "#D57868",
     },
   },
