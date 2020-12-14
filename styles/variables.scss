@@ -20,7 +20,17 @@ body {
   // height: 2000px;
   overflow-x: hidden;
 }
-//
+@media (max-width: 900px) {
+  body {
+    width: auto;
+    margin-top: 0px;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    left: 0;
+    right: 0;
+  }
+}
 .container {
   // width: 1345px;
   // min-width: 1345px;
