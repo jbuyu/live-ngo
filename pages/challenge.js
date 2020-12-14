@@ -1,3 +1,4 @@
+import ChallengeSvg from "../public/challenge.svg";
 export default function Challenge() {
   return (
     <section className="challenge">
@@ -8,7 +9,7 @@ export default function Challenge() {
             <div className="content">
               <div className="content-inner">
                 <h1>
-                  <div className="challenge">
+                  <div className="challenge-content">
                     <p>
                       Today, although most young people are educated, they
                       encounter difficulties in entering and remaining in the
@@ -20,6 +21,7 @@ export default function Challenge() {
                       skills there are numerous economical opportunities for the
                       youths.
                     </p>
+                    <img src={ChallengeSvg} alt="challenge image" />
                   </div>
                 </h1>
               </div>
