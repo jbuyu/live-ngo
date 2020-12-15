@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Solution() {
   return (
     <section className="solution">
@@ -25,7 +26,7 @@ export default function Solution() {
                         for their posperity.
                       </p>
                     </div>
-                    <img src="solution.svg" alt="solutions svg" />
+                    <Image src="/solution.svg" alt="solutions svg" width="900" height="900" />
                   </div>
                 </h1>
               </div>
