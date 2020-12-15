@@ -26,7 +26,10 @@ export default function Solution() {
                         for their posperity.
                       </p>
                     </div>
+                    <div className="image">
+
                     <Image src="/solution.svg" alt="solutions svg" width="900" height="900" />
+                    </div>
                   </div>
                 </h1>
               </div>

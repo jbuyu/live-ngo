@@ -6,14 +6,16 @@ export default function Strategies() {
       <div className="strategies-bg"></div>
       <div className="container">
         <div className="row">
-          <div className="strategies-inner" id="strategiesInner">
+          <div className="strategies-inner">
+            <div className="strategic-components">
+            <h2> <strong>Strategic components</strong> </h2>
+            <p>Aligned below You can see the strategic components that we aim to realise our goals</p>
+            </div>
             <div className="content">
               <div className="content-inner">
-                <h1>
                   <div className="strategies">
                     <Timeline />
                   </div>
-                </h1>
               </div>
             </div>
           </div>

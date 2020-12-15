@@ -21,7 +21,9 @@ export default function Challenge() {
                       skills there are numerous economical opportunities for the
                       youths.
                     </p>
+                    <div className="image">
                     <Image src="/challenge.svg" alt="challenge.svg" width="900" height="900" />
+                    </div>
                   </div>
                 </h1>
               </div>

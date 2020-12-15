@@ -55,12 +55,16 @@
             justify-content: center;
             display: flex;
             align-items: center;
+            max-width: 800px;
             @media only screen and(max-width:820px) {
-              margin-top: 200px;
+              // margin-top: 200px;
             }
           }
-          img {
+          .image {
             flex: 1;
+            @media only screen and(max-width: 1100px) {
+              max-width: 500px;
+            }
           }
         }
       }
