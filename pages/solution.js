@@ -1,4 +1,3 @@
-import SolutionSvg from "../public/solution.svg";
 export default function Solution() {
   return (
     <section className="solution">
@@ -26,7 +25,7 @@ export default function Solution() {
                         for their posperity.
                       </p>
                     </div>
-                    <img src={SolutionSvg} alt="solutions svg" />
+                    <img src="solution.svg" alt="solutions svg" />
                   </div>
                 </h1>
               </div>
