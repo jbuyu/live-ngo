@@ -5,43 +5,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vh;
   // left: 0;
   // bottom: 0;
   // left: 0;
   // position: relative;
   @media only screen and (max-width: 820px) {
     width: 100vh;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
     // position: absolute;
-    bottom: 10px;
+    // bottom: 10px;
   }
-}
-
-.footer-subscription {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 24px;
-  padding: 24px;
-  color: #fff;
-}
-
-.footer-subscription > p {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-.footer-subscription-heading {
-  margin-bottom: 24px;
-  font-size: 24px;
-}
-
-.footer-subscription-text {
-  margin-bottom: 24px;
-  font-size: 20px;
+  
 }
 
 .footer-input {
@@ -64,6 +40,9 @@
 
 .footer-link-wrapper {
   display: flex;
+  @media only screen and (max-width: $desktop) {
+      display: none;
+    }
 }
 
 .footer-link-items {
@@ -114,8 +93,14 @@
 }
 
 .social-media {
-  max-width: 1000px;
+  // max-width: 1000px;
   width: 100%;
+  // text-align: center;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  // align-items: center;
+
 }
 
 .social-media-wrap {
@@ -125,6 +110,10 @@
   width: 97%;
   max-width: 1000px;
   margin: 40px auto 0 auto;
+  @media only screen and (max-width: $desktop) {
+      display: flex;
+      flex-direction: row;
+    }
 }
 
 .social-icons {
@@ -133,6 +122,15 @@
   align-items: center;
   width: 240px;
   color: #fff;
+  @media only screen and (max-width: $desktop) {
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    // align-items: center;
+    // width: 100%;
+    text-align: center;
+  }
+  
 }
 
 .social-logo {
@@ -153,6 +151,9 @@
 .website-rights {
   color: #fff;
   margin-bottom: 16px;
+  @media only screen and (max-width: $laptop) {
+      display: none;
+    }
 }
 
 @media only screen and (max-width: 820px) {
