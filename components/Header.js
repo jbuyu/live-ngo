@@ -24,7 +24,7 @@ export default function Header() {
                     <Link href="/strategies"> Strategies</Link>
                   </li>
                   <li>
-                    <Link href="#"> Patners</Link>
+                    <Link href="/Team"> Team </Link>
                   </li>
                 </ul>
               </nav>
