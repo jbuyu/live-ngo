@@ -1,4 +1,32 @@
 .patners {
+    padding:2em;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    color: #374775;
+    .meet-patners{
+        span{
+            font-size: 1.8em;
+        }
+    }
+    .patner-logos{
+        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @media only screen and(max-width:1024px){
+            flex-direction: column;
+            margin-right: 0px;
+            margin-top: 3em;
+
+        }
+        img{
+            margin-right: 4em;
+            @media only screen and(max-width:1024px){
+                margin-top: 1.6em;
+            }
+        }
+    }
 }
