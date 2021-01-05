@@ -8,7 +8,7 @@ export default function Header() {
           <div className="header-inner">
             <div className="logo">
               <Link href="/">
-                <img src="/bold.png" alt="bold logo" width={120} height={120} />
+                <img src="/bold.png" alt="bold logo" width={120} height={120} style={{marginTop:"0.5em"}} />
               </Link>
             </div>
             <div className="navigation">
