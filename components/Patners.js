@@ -5,6 +5,7 @@ import Patlogo4 from "../public/patlogo4.svg";
 
 export default function Patners() {
   return (
+    
     <div className="patners">
       <div className="meet-patners">
         our <span>Patners</span>
