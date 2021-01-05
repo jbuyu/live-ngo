@@ -1,13 +1,13 @@
 .solution {
   // height: 80vh;
-  position: relative;
+  position: static !important;
   // margin-top: 100px;
   z-index: 10;
   @media (max-width: $widescreen) {
     // height: 90vh;
   }
   .solution-bg {
-    position: absolute;
+    position: static !important;
     left: 0;
     right: 0;
     top: 0;
@@ -16,6 +16,7 @@
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 0;
   }
   .solution-inner {
     width: 100%;
