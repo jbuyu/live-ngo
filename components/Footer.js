@@ -56,9 +56,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      {/* <section className="social-media">
+      <section className="social-media">
         <div className="social-media-wrap">
-          <small className="website-rights">Boldstep Initiative © 2020</small>
+          {/* <small className="website-rights">Boldstep Initiative © 2020</small> */}
           <div className="social-icons">
             <div className="div-link">
               <a
@@ -115,7 +115,7 @@ function Footer() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }
