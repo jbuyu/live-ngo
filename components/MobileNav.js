@@ -187,7 +187,7 @@ const MenuLinks = styled.nav`
   display: flex;
   background: #5565a8;
   position: absolute;
-  z-index: 5;
+  z-index: 10;
   top: 0;
   right: 0;
   height: 100vh;
