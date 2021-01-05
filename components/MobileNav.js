@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import styled from "styled-components";
 import { breakpoints } from "../utils/breakpoints";
-import { animateScroll as scroll } from "react-scroll";
 const MobileNavMenu = () => {
   const [menuOpen, toggleMenuOpen] = useState(false);
   const [copy, copied] = useState(false);
