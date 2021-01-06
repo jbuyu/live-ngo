@@ -4,15 +4,12 @@ import styled from "styled-components";
 import { breakpoints } from "../utils/breakpoints";
 const MobileNavMenu = () => {
   const [menuOpen, toggleMenuOpen] = useState(false);
-  const [copy, copied] = useState(false);
 
   return (
     <MenuBar>
       <Link href="/">
         <img src="/bold.png" alt="bold logo" width={120} height={120} style={{marginTop:"0.5em"}} />
       </Link>
-      {/* <CenterContainer>
-      </CenterContainer> */}
       <MenuIconContainer>
         <MenuIcon menuOpen={menuOpen} onClick={() => toggleMenuOpen(!menuOpen)}>
           <div />
@@ -110,34 +107,6 @@ const MenuBar = styled.header`
   justify-content: space-between;
   align-items: center;
 `;
-
-// const CenterContainer = styled.div`
-//   display: flex;
-//   /* width: 50%; */
-//   /* justify-content: center;
-//   align-items: center; */
-//   li {
-//     list-style-type: none;
-//     display: flex;
-//     flex-direction: flex-start;
-//     color: #223567;
-//     margin-top: 1em;
-//     margin-left: 3em;
-//     span {
-//       flex: 1;
-//     }
-//     span:first-child {
-//       width: 50%;
-//     }
-//     span:last-child {
-//       width: 50%;
-//       display: flex-end;
-//       @media (max-width: 768px) {
-//         display: none;
-//       }
-//     }
-//   }
-// `
 const MenuIconContainer = styled.div`
   display: flex;
   justify-content: flex-end;
@@ -203,8 +172,9 @@ const MenuLinks = styled.nav`
     justify-content: center;
     align-items: center;
     display: flex;
-    font-size: 28px;
+    font-size: 40px;
     li {
+      cursor:pointer;
       list-style: none;
       margin-top: 1em;
       margin-bottom: 1em;
