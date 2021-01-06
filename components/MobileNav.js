@@ -99,7 +99,7 @@ const MenuBar = styled.header`
   top: 0;
   height: 10rem;
   position: fixed;
-  width: 100%;
+  // width: 200%;
   background: white;
   border-bottom: "blue";
   z-index: 10;
@@ -159,7 +159,7 @@ const MenuLinks = styled.nav`
   z-index: 10;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   transition: transform 300ms;
   transform: ${({ menuOpen }) =>
