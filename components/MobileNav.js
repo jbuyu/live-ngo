@@ -9,7 +9,7 @@ const MobileNavMenu = () => {
   return (
     <MenuBar>
       <Link href="/">
-        <img src="/bold.png" alt="bold logo" width={85} height={85} style={{marginTop:"0.5em"}} />
+        <img src="/bold.png" alt="bold logo" width={120} height={120} style={{marginTop:"0.5em"}} />
       </Link>
       {/* <CenterContainer>
       </CenterContainer> */}
@@ -100,7 +100,7 @@ const MenuBar = styled.header`
     display: none;
   }
   top: 0;
-  height: 4.2rem;
+  height: 10rem;
   position: fixed;
   width: 100%;
   background: white;
@@ -152,15 +152,15 @@ const MenuIcon = styled.button`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 2rem;
+  height: 3rem;
   outline: none;
   border: none;
   z-index: 11;
+  margin-bottom:1rem;
   div {
-    width: 1.95rem;
-    height: 0.25rem;
-
-    background: ${({ menuOpen }) => (menuOpen ? "#4c4c4c" : "#223567")};
+    width: 2.8rem;
+    height: 0.5rem;
+    background: ${({ menuOpen }) => (menuOpen ? "#000000" : "#0d2484")};
     border-radius: 10px;
     transform-origin: 1px;
     transition: opacity 300ms, transform 300ms;

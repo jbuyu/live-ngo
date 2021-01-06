@@ -1,44 +1,51 @@
 .challenge {
-  // height: 80vh;
-  // position: static !important;
-  // z-index: 10;
-  // width: 100vh;
+  @media only screen and(max-width: $tablet) {
+    margin-top: 30vh;
+  }
   .challenge-inner {
-    width: 100vh;
-    height: auto;
     display: flex;
     flex-direction: row;
-    // position: relative;
-    @media (max-width: $desktop) {
-      height: 70vh;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 70vh;
+    @media only screen and(max-width: $tablet) {
+      width: 100vh;
+      height: 100%;
+      margin-bottom: 40vh;
+      font-size: 3.1rem;
+      line-height: 1rem;
     }
 
-    .content-inner {
-      @media (max-width: $widescreen) {
-        font-size: 3.1rem;
-        line-height: 1rem;
-      }
-      .challenge-content {
-        overflow: hidden;
-        // height: auto;
-        position: relative;
+    .challenge-content {
+      display: flex;
+      flex-direction: row;
+      @media only screen and(max-width: $tablet) {
         display: flex;
-        flex-direction: row;
-        p {
-          color: #172548;
-          font-weight: 300;
-          font-size: 1.3rem;
-          margin: 0;
-          line-height: 1.9rem;
-          flex: 1;
-          display: flex;
-          align-content: center;
-          align-items: center;
-          max-width: 800px;
-          padding-left: 2em;
+        flex-direction: column;
+      }
+      p {
+        color: #172548;
+        font-weight: 300;
+        font-size: 1.3rem;
+        margin: 0;
+        line-height: 1.9rem;
+        flex: 1;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        max-width: 800px;
+        padding-left: 2em;
+        @media only screen and(max-width: $tablet) {
+          font-size: 1.6rem;
+          line-height: 2.4rem;
+          // font-weight: 400;
         }
-        div.image {
-          flex: 1;
+      }
+      div.image {
+        flex: 1;
+        @media only screen and(max-width: $tablet) {
+          margin-top: 2em;
+          margin-bottom: 0;
         }
       }
     }
