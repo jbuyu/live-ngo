@@ -97,7 +97,7 @@ const MenuBar = styled.header`
     display: none;
   }
   top: 0;
-  height: 10rem;
+  height: 6rem;
   position: fixed;
   // width: 200%;
   background: white;
