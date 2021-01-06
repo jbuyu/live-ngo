@@ -69,7 +69,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaFacebook />
+                  <FaFacebook  size={30}/>
                 </a>
               </div>
               <div className="div-link">
@@ -79,7 +79,7 @@ function Footer() {
                   target="_blank"
                   aria-label="Instagram"
                 >
-                  <FaInstagram />
+                  <FaInstagram size={30} />
                 </a>
               </div>
               <div className="div-link">
@@ -91,7 +91,7 @@ function Footer() {
                   target="_blank"
                   aria-label="Youtube"
                 >
-                  <FaYoutube />
+                  <FaYoutube size={30}/>
                 </a>
               </div>
               <div className="div-link">
@@ -101,7 +101,7 @@ function Footer() {
                   target="_blank"
                   aria-label="Twitter"
                 >
-                  <FaTwitter />
+                  <FaTwitter size={30}/>
                 </a>
               </div>
               <div className="div-link">
@@ -111,7 +111,7 @@ function Footer() {
                   target="_blank"
                   aria-label="LinkedIn"
                 >
-                  <FaLinkedin />
+                  <FaLinkedin size={30}/>
                 </a>
               </div>
             </div>

@@ -5,10 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   
   @media only screen and (max-width: $tablet) {
     width: 115vh;
-    // height: 8vh;
+    height: 20vh;
   }
 
   @media only screen and( max-width: $tablet){
@@ -17,11 +18,7 @@
     align-items: center;
     justify-content: center;
   }
-  // @media only screen and (max-width: $desktop) {
-  //   height: 20vh;
-  //   margin-top: 6vh;
-  // }
-  // height: 14vh;
+  
 }
 
 .footer-input {
@@ -130,17 +127,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 300px;
   color: #fff;
-  // @media only screen and (max-width: $desktop) {
-  //   display: flex;
-  //   flex-direction: row;
-  //   justify-content: center;
-  //   align-items: center;
-  //   width: 100%;
-  //   text-align: center;
-  // }
-  
   
 }
 
