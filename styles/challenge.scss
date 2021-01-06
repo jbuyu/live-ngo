@@ -19,15 +19,17 @@
     .challenge-content {
       display: flex;
       flex-direction: row;
+
       @media only screen and(max-width: $tablet) {
         display: flex;
         flex-direction: column;
       }
       p {
+        margin-bottom: 6em;
+        margin-top: 6em;
         color: #172548;
         font-weight: 300;
         font-size: 1.3rem;
-        margin: 0;
         line-height: 1.9rem;
         flex: 1;
         display: flex;
