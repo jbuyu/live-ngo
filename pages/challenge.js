@@ -1,12 +1,11 @@
 import Image from 'next/image'
 export default function Challenge() {
   return (
-    <section className="challenge">
-      <div className="challenge-bg"></div>
-      <div className="container">
-        <div className="row">
-          <div className="challenge-inner" id="challengeInner">
-            <div className="content">
+    // <section className="challenge">
+    //   <div className="challenge-bg"></div>
+    //   <div className="container">
+    //     <div className="row">
+          <div className="challenge-inner">
               <div className="content-inner">
                 <h1>
                   <div className="challenge-content">
@@ -26,11 +25,10 @@ export default function Challenge() {
                     </div>
                   </div>
                 </h1>
-              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+    //     </div>/
+    //   </div>
+    // </section>
   );
 }
