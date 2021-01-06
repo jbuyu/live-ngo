@@ -8,7 +8,13 @@ const MobileNavMenu = () => {
   return (
     <MenuBar>
       <Link href="/">
-        <img src="/bold.png" alt="bold logo" width={120} height={120} style={{marginTop:"0.5em"}} />
+        <img
+          src="/bold.png"
+          alt="bold logo"
+          width={120}
+          height={120}
+          style={{ marginTop: "0.5em" }}
+        />
       </Link>
       <MenuIconContainer>
         <MenuIcon menuOpen={menuOpen} onClick={() => toggleMenuOpen(!menuOpen)}>
@@ -21,67 +27,64 @@ const MobileNavMenu = () => {
         <ul>
           <li>
             <Link
-              style={{
-                cursor: "pointer",
-              }}
-              onClick={() => {
+              onClick={(e) => {
                 toggleMenuOpen(!menuOpen);
               }}
               href="/"
             >
-              Home
+              <div>
+                <a
+                  onClick={() => {
+                    toggleMenuOpen(!menuOpen);
+                  }}
+                >
+                  Home
+                </a>
+              </div>
             </Link>
           </li>
           <li>
-            <Link
-              style={{
-                cursor: "pointer",
-              }}
-              onClick={() => {
-                toggleMenuOpen(!menuOpen);
-              }}
-              href="/challenge"
-            >
-              Challenge
+            <Link href="/challenge">
+              <a
+                onClick={() => {
+                  toggleMenuOpen(!menuOpen);
+                }}
+              >
+                Challenge
+              </a>
             </Link>
           </li>
           <li>
-            <Link
-              style={{
-                cursor: "pointer",
-              }}
-              onClick={() => {
-                toggleMenuOpen(!menuOpen);
-              }}
-              href="/solution"
-            >
-              Solution
+            <Link href="/solution">
+              <a
+                onClick={() => {
+                  toggleMenuOpen(!menuOpen);
+                }}
+              >
+                Solution
+              </a>
             </Link>
           </li>
           <li>
-            <Link
-              style={{
-                cursor: "pointer",
-              }}
-              onClick={() => {
-                toggleMenuOpen(!menuOpen);
-              }}
-              href="/strategies"
-            >
-              Strategies
+            <Link href="/strategies">
+              <a
+                onClick={() => {
+                  toggleMenuOpen(!menuOpen);
+                }}
+              >
+                Strategies
+              </a>
             </Link>
           </li>
           <li>
-            <Link
-              style={{
-                cursor: "pointer",
-              }}
-              onClick={() => {
-                toggleMenuOpen(!menuOpen);
-              }}
-              href="/team"
-            >
-              Team
+            <Link href="/team">
+              <a
+                onClick={() => {
+                  toggleMenuOpen(!menuOpen);
+                }}
+              >
+                Team
+              </a>
             </Link>
           </li>
         </ul>
@@ -125,7 +128,7 @@ const MenuIcon = styled.button`
   outline: none;
   border: none;
   z-index: 11;
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
   div {
     width: 2.8rem;
     height: 0.5rem;
@@ -174,7 +177,7 @@ const MenuLinks = styled.nav`
     display: flex;
     font-size: 40px;
     li {
-      cursor:pointer;
+      cursor: pointer;
       list-style: none;
       margin-top: 1em;
       margin-bottom: 1em;
