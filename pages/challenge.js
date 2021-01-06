@@ -17,8 +17,8 @@ export default function Challenge() {
             <Image
               src="/challenge.svg"
               alt="challenge.svg"
-              width="900"
-              height="900"
+              width="800"
+              height="800"
             />
           </div>
         </div>

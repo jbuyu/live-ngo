@@ -19,8 +19,8 @@ export default function Solution() {
             <Image
               src="/solution.svg"
               alt="solutions svg"
-              width="900"
-              height="900"
+              width="800"
+              height="800"
             />
           </div>
         </div>
