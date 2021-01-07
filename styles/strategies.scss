@@ -6,7 +6,9 @@
   min-height: 100vh;
   margin: 0;
   background-color: #f6f5f7;
-  // width: 100vh;
+  @media only screen and(max-width: $tablet){
+    margin-top: 14vh;
+  }
   
   .strategic-components{
     display: flex;

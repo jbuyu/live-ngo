@@ -7,8 +7,9 @@
   align-items: center;
   width: 100%;
   
+  
   @media only screen and (max-width: $tablet) {
-    width: 115vh;
+    width: 100vh;
     height: 20vh;
   }
 
