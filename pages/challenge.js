@@ -12,9 +12,9 @@ export default function Challenge() {
             seeking intertwined with unemployment spells or periods of low
             skilled and precarious work. However, if equipped with the relevant
             skills there are numerous economical opportunities for the youths.
-            In essense, the world has changed s much over the past couple of
-            decades and equiping the youths with ideal skills in ab_channelan
-            everchangng landscape is ideal
+            In essense, the world has changed so much over the past couple of
+            decades and equiping the youths with ideal skills in a competitive
+            and constantly changing world is more than ideal.
           </p>
           <div className="image">
             <Image

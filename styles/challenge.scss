@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    height: 70vh;
+    // height: 70vh;
     @media only screen and(max-width: $tablet) {
       width: 100vh;
       height: 100%;
@@ -15,7 +15,6 @@
       font-size: 3.1rem;
       line-height: 1rem;
     }
-
     .challenge-content {
       display: flex;
       flex-direction: row;
@@ -25,8 +24,8 @@
         flex-direction: column;
       }
       p {
-        margin-bottom: 6em;
-        margin-top: 6em;
+        // margin-top: 6em;
+        margin: 0;
         color: #172548;
         font-weight: 300;
         font-size: 1.3rem;
@@ -40,7 +39,6 @@
         @media only screen and(max-width: $tablet) {
           font-size: 1.6rem;
           line-height: 2.4rem;
-          // font-weight: 400;
         }
       }
       div.image {

@@ -11,14 +11,14 @@ export default function Solution() {
             initiative and innovation, problem solving and decision making. The
             programs emphasize on the application of principles of transferable
             skills in a competency based learning approach. We work with Kenyan
-            youth aged <strong>18-29 </strong> years old, who are recent
-            <strong>college / university</strong> graduates, young professionals
-            and entrepreneurs to lay the foundation for their posperity.
+            youth aged 18-29 years old, who are recent college / university
+            graduates, young professionals and entrepreneurs to lay the
+            foundation for their posperity.
           </p>
           <div className="image">
             <Image
               src="/solution.svg"
-              alt="solutions svg"
+              alt="solution svg"
               width="800"
               height="800"
             />
