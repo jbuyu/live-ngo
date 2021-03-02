@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import {SliderData } from './SliderData'
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 export const ImageSlider = ({ slides }) => {
@@ -9,7 +10,7 @@ export const ImageSlider = ({ slides }) => {
     setCurrent(current === length - 1 ? 0 : current + 1);
   };
   const prevSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current - 1);
+    setCurrent(current === 0 ? length - 1 : current - 1);
   };
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
@@ -26,7 +27,7 @@ export const ImageSlider = ({ slides }) => {
         onClick={nextSlide}
         color="#FF9800"
       />
-      {slides.map((slide, index) => (
+      {SliderData.map((slide, index) => (
         <div
           className={index === current ? "slide active" : "slide"}
           key={index}
