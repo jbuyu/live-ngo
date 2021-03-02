@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import Features from "../components/Features";
 import { ImageSlider } from "../components/ImageSlider";
 import Patners from "../components/Patners";
+import { SliderData } from "../components/SliderData";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       </Head>
       <Banner />
       <Features />
-      <ImageSlider/>
+      <ImageSlider slides = {SliderData} />
       {/* <Patners /> */}
     </>
   );
