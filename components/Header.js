@@ -23,9 +23,9 @@ export default function Header() {
                   <li>
                     <Link href="/strategies"> Strategies</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/Team"> Team </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </nav>
             </div>

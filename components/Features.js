@@ -2,6 +2,10 @@ import Goal from "../public/goal.svg";
 import Sustain from "../public/sustain.svg";
 import Vision from "../public/vision.svg";
 import Right from "../public/right.svg";
+import * as Scroll from 'react-scroll';
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+
 
 export default function Features() {
   return (
@@ -21,10 +25,10 @@ export default function Features() {
                 positively.
               </p>
               <div className="btn-row">
-                <a href="/">
+                <Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500} delay={100} >
                   Meet The Team
                   <img src={Right} alt="arrow right" width={25} height={25} />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="features-list">

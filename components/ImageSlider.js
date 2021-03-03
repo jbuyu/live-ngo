@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import {SliderData } from './SliderData'
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 export const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -16,6 +18,7 @@ export const ImageSlider = ({ slides }) => {
     return null;
   }
   return (
+    <Element name="test1" className="element">
     <section className="slider">
       <FaArrowAltCircleLeft
         className="left-arrow"
@@ -44,5 +47,7 @@ export const ImageSlider = ({ slides }) => {
         </div>
       ))}
     </section>
+    </Element>
+
   );
 };
