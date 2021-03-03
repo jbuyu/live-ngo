@@ -76,17 +76,6 @@ const MobileNavMenu = () => {
               </a>
             </Link>
           </li>
-          <li>
-            <Link href="/team">
-              <a
-                onClick={() => {
-                  toggleMenuOpen(!menuOpen);
-                }}
-              >
-                Team
-              </a>
-            </Link>
-          </li>
         </ul>
       </MenuLinks>
     </MenuBar>

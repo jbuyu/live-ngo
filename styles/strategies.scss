@@ -4,8 +4,10 @@
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
+  // width: 100vh;
   margin: 0;
   background-color: #f6f5f7;
+  padding:4em;
   @media only screen and(max-width: $tablet){
     margin-top: 14vh;
   }
