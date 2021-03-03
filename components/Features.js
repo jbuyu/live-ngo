@@ -25,7 +25,7 @@ export default function Features() {
                 positively.
               </p>
               <div className="btn-row">
-                <Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500} delay={100} >
+                <Link activeClass="active" to="team" spy={true} smooth={true} offset={50} duration={500} delay={100} >
                   Meet The Team
                   <img src={Right} alt="arrow right" width={25} height={25} />
                 </Link>
