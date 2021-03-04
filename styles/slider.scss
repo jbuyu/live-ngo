@@ -1,3 +1,15 @@
+.meet-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  font-size: 1.6em;
+
+    span {
+      font-size: 1.8em;
+      margin-left: 0.6em;
+    }
+}
 .slider {
   position: relative;
   height: 100vh;

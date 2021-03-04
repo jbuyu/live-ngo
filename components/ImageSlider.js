@@ -17,7 +17,13 @@ export const ImageSlider = ({ slides }) => {
     return null;
   }
   return (
-    <Element name="team" className="element">
+    <>
+      <Element name="team" className="element">
+        <div className="meet-team">
+          our <span>Team</span>
+        </div>
+      </Element>
+
       <section className="slider">
         <FaArrowAltCircleLeft
           className="left-arrow"
@@ -46,6 +52,6 @@ export const ImageSlider = ({ slides }) => {
           </div>
         ))}
       </section>
-    </Element>
+    </>
   );
 };
