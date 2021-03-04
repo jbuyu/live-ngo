@@ -2,14 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { SliderData } from "./SliderData";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Element } from "react-scroll";
 
 export const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);

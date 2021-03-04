@@ -2,8 +2,7 @@ import Goal from "../public/goal.svg";
 import Sustain from "../public/sustain.svg";
 import Vision from "../public/vision.svg";
 import Right from "../public/right.svg";
-import * as Scroll from 'react-scroll';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 
 

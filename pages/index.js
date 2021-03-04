@@ -15,7 +15,7 @@ export default function Home() {
       <Banner />
       <Features />
       <ImageSlider slides = {SliderData} />
-      {/* <Patners /> */}
+      <Patners />
     </>
   );
 }

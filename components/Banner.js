@@ -1,6 +1,6 @@
 // import Image from "next/image";
-import Link from "next/link";
 import Africa from "../public/africa.svg";
+import { Link } from 'react-scroll'
 
 export default function Banner() {
   return (
@@ -25,7 +25,10 @@ export default function Banner() {
                   intentional, safe and dynamic spaces.
                 </p>
                 <div className="btn-row">
-                  <a href="/">Contact us today</a>
+                <Link activeClass="active" to="footer" spy={true} smooth={true} offset={50} duration={500} delay={100} >
+                Contact us today
+                  </Link>
+
                 </div>
                 {/* <div className="play-video">
                   <div className="play-video cover"></div>

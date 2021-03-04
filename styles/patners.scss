@@ -1,32 +1,48 @@
 .patners {
-    padding:2em;
+  //   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/back.svg");
+
+  font-size: 1.6em;
+  color: #374775;
+  min-width: 100vw;
+
+  @media only screen and (max-width: $tablet) {
+    min-width: 100vw;
+  }
+
+  .meet-patners {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: 1.6em;
-    color: #374775;
-    .meet-patners{
-        span{
-            font-size: 1.8em;
-        }
+    span {
+      font-size: 1.8em;
+      margin-left: 0.6em;
     }
-    .patner-logos{
-        margin-top: 2em;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        @media only screen and(max-width:1024px){
-            flex-direction: column;
-            margin-right: 0px;
-            margin-top: 3em;
-
-        }
-        img{
-            margin-right: 4em;
-            @media only screen and(max-width:1024px){
-                margin-top: 1.6em;
-            }
-        }
+  }
+  .patner-logos {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 3em;
+    justify-content: center;
+    align-items: center;
+    @media only screen and(max-width:1024px) {
+        margin: 0;
+        justify-content: flex-start;
     }
+    img {
+      margin: 3em;
+    }
+    @media only screen and(max-width:1024px) {
+      img {
+        // margin-left: 1em;
+        margin-top: 1.6em;
+      }
+    }
+  }
 }
