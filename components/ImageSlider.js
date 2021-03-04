@@ -19,9 +19,9 @@ export const ImageSlider = ({ slides }) => {
   return (
     <>
       <Element name="team" className="element">
-        <div className="meet-team">
-          our <span>Team</span>
-        </div>
+        {/* <div className="meet-team">
+           <span>Team</span>
+        </div> */}
       </Element>
 
       <section className="slider">
