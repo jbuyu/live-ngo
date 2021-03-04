@@ -33,7 +33,7 @@
       margin: 10px -28px;
       width: 50%;
       .timeline-item-content {
-        max-width: 80%;
+        max-width: 95%;
         position: relative;
         // width: 400px;
         background-color: #ffff;
@@ -110,6 +110,10 @@
       // padding-left: 0px;
     }
     .timeline-item:nth-child(odd) .timeline-item-content {
+      align-items: flex-start;
+      text-align: left;
+    }
+    .timeline-item:nth-child(even) .timeline-item-content {
       align-items: flex-start;
       text-align: left;
     }
