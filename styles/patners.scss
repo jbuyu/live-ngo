@@ -2,10 +2,12 @@
   //   padding: 2em;
   display: flex;
   flex-direction: column;
-  background-image: url("/back.svg");
+  // background-image: url("/back.svg");
+  background-image: url("/dot.png");
   font-size: 1.6em;
   color: #374775;
   min-width: 100vw;
+  // background-color: red;
 
   @media only screen and (max-width: $tablet) {
     min-width: 100vw;
@@ -24,7 +26,6 @@
       text-align: center;
       width: 100vh;
     }
-  
   }
   .patner-logos {
     display: flex;
@@ -32,19 +33,23 @@
     // justify-content: space-between;
     padding-top: 2em;
     padding-bottom: 2em;
+    // padding-left: 4em;
     margin: 3em;
     justify-content: center;
     align-items: center;
+    // background-color: red;
+    // margin-left: 2em;
+  
     @media only screen and(max-width:1024px) {
-        margin: 0;
-        justify-content: flex-start;
+      margin: 0;
+      justify-content: flex-start;
     }
     img {
-      margin: 3em;
+      // margin: 0em 0.8em 0em 1em;
+      padding: 0.8em
     }
     @media only screen and(max-width:1024px) {
       img {
-        // margin-left: 1em;
         margin-top: 1.6em;
       }
     }
