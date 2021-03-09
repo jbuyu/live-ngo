@@ -45,8 +45,8 @@ export const ImageSlider = ({ slides }) => {
                 className="image"
                 src={slide.image}
                 alt={slide.alt}
-                width={900}
                 height={600}
+                width={900}
               />
             )}
           </div>

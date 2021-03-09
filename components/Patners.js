@@ -1,7 +1,6 @@
-import Patlogo1 from "../public/patlogo1.svg";
-import Patlogo2 from "../public/patlogo2.svg";
-import Patlogo3 from "../public/patlogo3.svg";
-import Patlogo4 from "../public/patlogo4.svg";
+import Seehub from "../public/see.png";
+import Lilak from "../public/lilak.png";
+import Image from 'next/image'
 
 export default function Patners() {
   return (
@@ -10,10 +9,8 @@ export default function Patners() {
         <span>Patners</span>
       </div>
       <div className="patner-logos">
-        <img src={Patlogo1} alt="patner_logo" width={100} />
-        <img src={Patlogo2} alt="patner_logo" width={100} />
-        <img src={Patlogo3} alt="patner_logo" width={100} />
-        {/* <img src={Patlogo4} alt="patner_logo" width={100} /> */}
+        <Image src={Seehub} alt="see_hub" width={150} height={150}/>
+        <Image src={Lilak} alt="see_hub" width={150} height={150}/>
       </div>
     </div>
   );
